@@ -21,7 +21,7 @@ The project utilizes a cloud-native architecture to handle large-scale data inge
 
     Storage: Raw and processed data staged in Amazon S3.
 
-    Processing: Feature engineering and data cleaning using PySpark/Python.
+    Processing: Feature engineering and data cleaning using Python.
 
     Modeling: Machine learning models ... TODO
 
@@ -29,17 +29,25 @@ The project utilizes a cloud-native architecture to handle large-scale data inge
 
 The repository is organized into Jupyter Notebooks that follow the data science lifecycle:
 
-    TODO...
+    Flood Model + Dataset.ipynb: ...
+    Flood Webscrape.ipynb: ...
+    dashboard-etl.ipynb: Processes JSON files from our API calls for use with our visualization dashboard.
+    drainage-area-etl.ipynb: Augments our dataset with the corresponding drainage area for each station.
+    model-etl.ipynb: Augements our dataset for model training imputing missing features and creating new features.
+    unique-coordinates-identifier.ipynb: The script responsible for identifying all unique coordinate combinations for the purpose of weather api polling.
+    
 
 ## Technical Stack
 
     Language: Python 3.x
 
-    Machine Learning: Scikit-learn, TODO...
+    Big Data: Pandas, Numpy, GeoPandas, Pickle, BeautifulSoup
+
+    Machine Learning: Scikit-learn, SHAP
 
     Cloud: AWS (Lambda, EventBridge, S3)
 
-    Visualization: Power BI, TODO...
+    Visualization: Power BI, Matplotlib, Shapely
 
 
 ## Contributors

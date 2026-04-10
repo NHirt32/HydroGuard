@@ -8,10 +8,17 @@ The goal of this project is to provide a predictive model that assesses flood pr
 Key Data Sources:
 
     Weather APIs: Historical and forecasted precipitation and temperature.
-
+    https://open-meteo.com/
+    
     Reservoir Levels: Current and historical water levels in local basins.
+    https://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/UnitValueData/Stage/corrected/ 
+    https://dd.weather.gc.ca/today/hydrometric/csv/BC/daily/
+
+    Climate Levels: Historical climate metrics
+    https://dd.weather.gc.ca/today/climate/observations/daily/csv/ 
 
     Geospatial Data: Basin size, elevation changes, and soil saturation metrics.
+    https://essd.copernicus.org/articles/17/259/2025/
 
 ## System Architecture
 

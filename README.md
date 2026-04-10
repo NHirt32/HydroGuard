@@ -61,4 +61,4 @@ The repository is organized into Jupyter Notebooks that follow the data science 
 
     Nicholas Hirt – M.Sc. Big Data Candidate, SFU
     Cole Hanniwell – M.Sc. Big Data Candidate, SFU
-    TODO (ADD YOUR NAMES)
+    Shuo Yan – M.Sc. Big Data Candidate, SFU

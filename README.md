@@ -23,14 +23,14 @@ The project utilizes a cloud-native architecture to handle large-scale data inge
 
     Processing: Feature engineering and data cleaning using Python.
 
-    Modeling: Machine learning models ... TODO
+    Modeling: Use a Histogram-Based Gradient Boosting model from scikit
 
 ## Repository Structure
 
 The repository is organized into Jupyter Notebooks that follow the data science lifecycle:
 
-    Flood Model + Dataset.ipynb: ...
-    Flood Webscrape.ipynb: ...
+    Flood Model + Dataset.ipynb: Contains the full script to process the data files into the training dataset and training the model (combines scripts below into one + model)
+    Flood Webscrape.ipynb: Webscraping the Hydro and Climate historical data  from the Canada Government website
     dashboard-etl.ipynb: Processes JSON files from our API calls for use with our visualization dashboard.
     drainage-area-etl.ipynb: Augments our dataset with the corresponding drainage area for each station.
     model-etl.ipynb: Augements our dataset for model training imputing missing features and creating new features.
@@ -53,4 +53,5 @@ The repository is organized into Jupyter Notebooks that follow the data science 
 ## Contributors
 
     Nicholas Hirt – M.Sc. Big Data Candidate, SFU
+    Cole Hanniwell – M.Sc. Big Data Candidate, SFU
     TODO (ADD YOUR NAMES)
